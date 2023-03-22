@@ -12,6 +12,7 @@ body, html {
     transform: rotate(45deg);
     background-color: red;
     animation: hert linear 2s infinite;
+    box-shadow: 5px 5px 5px #ccc;
 }
 
 .box:before, .box:after {
