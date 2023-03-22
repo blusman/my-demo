@@ -34,7 +34,15 @@ body, html {
         transform: rotate(45deg) scale(1);
     }
 
+    15% {
+        transform: rotate(45deg) scale(0.7);
+    }
+
     25% {
+        transform: rotate(45deg) scale(1);
+    }
+
+    40% {
         transform: rotate(45deg) scale(0.7);
     }
 
