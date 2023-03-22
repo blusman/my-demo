@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box {
+    width: 0;
+    margin: 0px auto;
+    position: relative;
+    border: 150px solid #0f0;
+}
+.box::before {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -150px;
+    background-color: #f00;
+}
+.box::after {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #f00;
+}
