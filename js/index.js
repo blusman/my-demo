@@ -27,3 +27,4 @@ for (let i = 0; i < _li.length; i++) {
         line[i].style.width = '0%'
     }
 }
+
