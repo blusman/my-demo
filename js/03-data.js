@@ -28,29 +28,30 @@ var text = document.querySelector('input');
 var main = document.querySelector('.main');
 
 
-// function auto(data, target) {
-
-// }
+function auto(data, target) {
+    target.innerHTML = ''
+    for (var i = 0; i < data.length; i++) {
+        var _tr = document.createElement('tr');
+        _tr.align = 'center';
+        for (var k in data[i]) {
+            var _td = document.createElement('td');
+            if (data[i][k] == '查看') {
+                var _a = document.createElement('a');
+                _a.innerHTML = data[i][k];
+                _a.setAttribute('href', '#');
+                _td.appendChild(_a)
+            } else {
+                _td.innerHTML = data[i][k];
+            }
+            _tr.appendChild(_td);
+        }
+        target.appendChild(_tr)
+    }
+}
+auto(data, main);
+main.style.height = main.children.length * 30 + 'px';
 
 // 展示信息
-for (var i = 0; i < data.length; i++) {
-    var _tr = document.createElement('tr');
-    _tr.align = 'center';
-    for (var k in data[i]) {
-        var _td = document.createElement('td');
-        if (data[i][k] == '查看') {
-            var _a = document.createElement('a');
-            _a.innerHTML = data[i][k];
-            _a.setAttribute('href', '#');
-            _td.appendChild(_a)
-        } else {
-            _td.innerHTML = data[i][k];
-        }
-        _tr.appendChild(_td);
-    }
-    main.appendChild(_tr)
-}
-main.style.height = main.children.length * 30 + 'px';
 
 // 动态修改 a 标签路径
 var _as = document.querySelectorAll('a');
@@ -71,6 +72,7 @@ btn.onclick = function () {
         }
     } else {
         alert('请输入查询信息');
+        auto(data, main)
     }
     main.style.height = main.children.length * 30 + 'px';
 }
