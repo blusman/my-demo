@@ -39,6 +39,7 @@ function auto(data, target) {
                 var _a = document.createElement('a');
                 _a.innerHTML = data[i][k];
                 _a.setAttribute('href', '#');
+                _a.setAttribute('target', '_blank');
                 _td.appendChild(_a)
             } else {
                 _td.innerHTML = data[i][k];
