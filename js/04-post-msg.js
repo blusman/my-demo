@@ -5,8 +5,14 @@ var info = document.querySelector('.info');
 btn.onclick = function () {
     if (text.value.trim()) {
         var _div = document.createElement('div');
+
+        var _img = document.createElement('img');
+        _img.setAttribute('src','../images/head.jpg');
+        _div.appendChild(_img);
+
         var _p1 = document.createElement('p');
         _p1.innerHTML = text.value.trim();
+        _p1.style.marginLeft = '10px';
         _div.appendChild(_p1);
 
         var date = new Date();

@@ -19,10 +19,17 @@ var data = [
         maintchlog: 'Css3',
         tchlog: 'HTML + Css + Css3',
         look: '查看'
+    },
+    {
+        id: '03',
+        name: '发布评论',
+        maintchlog: 'js',
+        tchlog: 'HTML + CSS + JS',
+        look: '查看'
     }
 ]
 
-var data1 = ['file:///E:/%E5%89%91%E5%BF%83/Desktop/%E7%AE%80%E5%8D%95%E7%89%B9%E6%95%88/html/01-hot-heart.html', 'file:///E:/%E5%89%91%E5%BF%83/Desktop/%E7%AE%80%E5%8D%95%E7%89%B9%E6%95%88/html/02-run-images.html']
+var data1 = ['file:///E:/%E5%89%91%E5%BF%83/Desktop/%E7%AE%80%E5%8D%95%E7%89%B9%E6%95%88/html/01-hot-heart.html', 'file:///E:/%E5%89%91%E5%BF%83/Desktop/%E7%AE%80%E5%8D%95%E7%89%B9%E6%95%88/html/02-run-images.html', 'file:///E:/%E5%89%91%E5%BF%83/Desktop/%E7%AE%80%E5%8D%95%E7%89%B9%E6%95%88/html/04-post-msg.html']
 var btn = document.querySelector('button');
 var text = document.querySelector('input');
 var main = document.querySelector('.main');
