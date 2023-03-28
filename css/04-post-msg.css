@@ -1,0 +1,41 @@
+.box {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
+button {
+    float: right;
+    margin-right: 10px;
+}
+.info {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.info div {
+    height: 30px;
+    line-height: 30px;
+}
+
+.info div p {
+    height: 30px;
+    float: left;
+    width: 75%;
+    border-top: 1px solid #ccc;
+}
+.info p:nth-child(2){
+    width: 15%;
+}
+.info p:nth-child(3){
+    width: 10%;
+}
