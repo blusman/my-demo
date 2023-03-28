@@ -29,7 +29,7 @@ var data = [
     }
 ]
 
-var data1 = ['https://blusman.github.io/my-demo/html/01-hot-heart.html', 'https://blusman.github.io/my-demo/html/02-run-images.html', 'https://blusman.github.io/my-demo/html/04-post-msg.html']
+var data1 = ['../html/01-hot-heart.html', 'https://blusman.github.io/my-demo/html/02-run-images.html', 'https://blusman.github.io/my-demo/html/04-post-msg.html']
 var btn = document.querySelector('button');
 var text = document.querySelector('input');
 var main = document.querySelector('.main');
