@@ -10,21 +10,21 @@ var data = [
         id: '01',
         name: '心动时刻',
         maintchlog: 'Css3',
-        tchlog: 'HTML + Css + Css3',
+        tchlog: 'HTML + Css',
         look: '查看'
     },
     {
         id: '02',
         name: '轮播图',
         maintchlog: 'Css3',
-        tchlog: 'HTML + Css + Css3',
+        tchlog: 'HTML + Css',
         look: '查看'
     },
     {
         id: '03',
         name: '发布评论',
         maintchlog: 'js',
-        tchlog: 'HTML + CSS + JS',
+        tchlog: 'HTML + CSS',
         look: '查看'
     }
 ]
